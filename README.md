@@ -1,1 +1,3 @@
 # process
+
+bash ./run.sh

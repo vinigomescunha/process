@@ -1,0 +1,30 @@
+{
+  "name": "process",
+  "description": "Sample Process",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha  --reporter spec",
+    "coverage": "istanbul cover node_modules/mocha/bin/_mocha -- --recursive",
+    "server": "node_modules/http-server/bin/http-server coverage/lcov-report --silent -p 9000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vinigomescunha/process.git"
+  },
+  "keywords": [],
+  "author": "Vinicius Gomes",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/vinigomescunha/process/issues"
+  },
+  "homepage": "https://github.com/vinigomescunha/process",
+  "devDependencies": {
+    "chai": "^4.0.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.4.2"
+  },
+  "dependencies": {
+    "http-server": "^0.10.0"
+  }
+}
